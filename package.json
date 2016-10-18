@@ -1,0 +1,17 @@
+{
+  "name": "dyn-haproxy",
+  "version": "1.0.0",
+  "description": "Dynamic configuration loading haproxy installation",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node lib/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Keith Homco",
+  "license": "ISC",
+  "dependencies": {
+    "copy-dir": "^0.3.0",
+    "mksubdir": "^0.1.0",
+    "simple-git": "^1.54.0"
+  }
+}
